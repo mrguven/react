@@ -1,10 +1,15 @@
 
 import './App.css';
 
+import Navbar from './Navbar';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+    <Navbar />
+
         <img src="logo512.png" className="App-logo" alt="logo" />
 
         <a
