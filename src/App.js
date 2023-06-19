@@ -1,6 +1,6 @@
 
 import './App.css';
-import AppTest from './AppTest';
+import AppTest from './components/AppTest';
 
 
 function App() {
