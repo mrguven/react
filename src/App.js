@@ -1,14 +1,14 @@
 
 import './App.css';
+import AppTest from './AppTest';
 
-import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-    <Navbar />
+   
 
         <img src="logo512.png" className="App-logo" alt="logo" />
 
@@ -29,9 +29,13 @@ function App() {
           
         </a>
 
+        
         <h1>this is test</h1>
+        <AppTest />
       </header>
      
+
+    
 
 </div>
 
