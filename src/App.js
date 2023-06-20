@@ -1,6 +1,6 @@
 
+import Notes from './components/Notes';
 
-import AppTest from './components/AppTest';
 
 
 function App() {
@@ -31,11 +31,11 @@ function App() {
 
         
         <h1>this is test</h1>
-        <AppTest />
+       
       </header>
-     
+      <Notes />
 
-    
+ 
 
 </div>
 

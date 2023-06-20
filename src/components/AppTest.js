@@ -26,7 +26,9 @@ return(
 
 
 
-      <div className="test">
+      <div className="test" style={{  // we can use css this way
+        backgroundColor:'#1234' // and we do not use min- we use CamelCase
+      }}>
         <h1>This is test App</h1>
         <div id="id">
             <h1>{title}</h1>

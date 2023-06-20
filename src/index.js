@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppTest from './components/AppTest';
 import Navbar from './components/Navbar';
+import OpenCamera from './components/OpenCamera';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
      <Navbar />
+     <OpenCamera />
     <App />
     <AppTest />
   </React.StrictMode>
