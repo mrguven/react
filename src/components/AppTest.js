@@ -1,7 +1,42 @@
+import { useState } from "react";
 
 function AppTest (){
+
+    const title= 'welcome to react tutorial';
+    const like=40;
+
+    const  person={
+        name:"john",
+        age:50
+    }
+    const reactLink='https://www.google.com'
+
+const [color,setColor]= useState('Red')
+
+
+
+// function changeColor(){  
+//     return setColor('paars')
+// }
+// onClick={changeColor} we can call the function inside the dom like this in react
+    
 return(
-    <h1>This is test App</h1>
+
+
+
+
+
+      <div className="test">
+        <h1>This is test App</h1>
+        <div id="id">
+            <h1>{title}</h1>
+            <h1>my name is {person.name}</h1>
+            <h1>my favorite color is {color}</h1>
+            <button type="button" className="buttons"  onClick={()=>setColor('blue')}> Change color </button>
+            <a href={reactLink}>google</a>
+        </div>
+        </div>
+    
 )
 }
 

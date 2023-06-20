@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import AppTest from './components/AppTest';
 
 
