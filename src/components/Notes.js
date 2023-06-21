@@ -38,6 +38,7 @@ const [blogs,setBlog]=useState([
 
       <form>
         <input type="text" />
+        <button type="submit">add user</button>
       </form>
 
    {/* <h2><i>{name}</i></h2> 

@@ -1,5 +1,6 @@
 
 import Notes from './components/Notes';
+import Home from './components/home';
 
 
 
@@ -24,12 +25,12 @@ function App() {
 
           
 
-        
+       
         
           
         </a>
 
-        
+        <Home />
         <h1>this is test</h1>
        
       </header>
