@@ -23,7 +23,7 @@ const [blogs,setBlog]=useState([
 
 
 //why we use 'key' inside div element
-    return ( // with map method we can write the object or data to webpage. but it is different
+    return ( // with map method we can write the object or data to webpage. or we can return it after the map.
         <div className="notes">
                                                     
             {blogs.map((blog)=>( 
@@ -36,6 +36,9 @@ const [blogs,setBlog]=useState([
 
 
 
+      <form>
+        <input type="text" />
+      </form>
 
    {/* <h2><i>{name}</i></h2> 
    <h2><i>{age}</i></h2>

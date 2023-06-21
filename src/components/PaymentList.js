@@ -1,4 +1,5 @@
 import { Component } from "react";
+import title from './Notes'
 
 export class PaymentList extends Component {
 
@@ -7,6 +8,8 @@ export class PaymentList extends Component {
 
             this.state={
                 message: 'you are subscribed'
+                
+
             }
 
      }
@@ -15,7 +18,17 @@ export class PaymentList extends Component {
         return(
             <div>
                 <h1>{this.state.message}</h1>
+
+            <h1> {title} </h1>
+   
+
+
+
+
+
             </div>
+
+
         )
      }
 
