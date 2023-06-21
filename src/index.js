@@ -7,6 +7,7 @@ import AppTest from './components/AppTest';
 import Navbar from './components/Navbar';
 import OpenCamera from './components/OpenCamera';
 import { PaymentList } from './components/PaymentList';
+import LifeCycle from './components/LifeCycle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
      <OpenCamera />
     <App />
     <AppTest />
-
+    <LifeCycle />
     <PaymentList />
   </React.StrictMode>
 );
