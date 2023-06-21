@@ -22,11 +22,11 @@ const [blogs,setBlog]=useState([
 
 
 
-
+//why we use 'key' inside div element
     return ( // with map method we can write the object or data to webpage. but it is different
         <div className="notes">
-                        
-            {blogs.map((blog)=>(
+                                                    
+            {blogs.map((blog)=>( 
                 <div className="blog" key={blog.id}>
                     <h2>{ blog.title}</h2>
                     <p><i> written by {blog.author} </i></p>

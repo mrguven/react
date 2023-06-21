@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import AppTest from './components/AppTest';
 import Navbar from './components/Navbar';
 import OpenCamera from './components/OpenCamera';
+import { PaymentList } from './components/PaymentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,8 @@ root.render(
      <OpenCamera />
     <App />
     <AppTest />
+
+    <PaymentList />
   </React.StrictMode>
 );
 
