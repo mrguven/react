@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function AppTest (){
+function AppTest (props){
 
     const title= 'welcome to react tutorial';
     const like=40;
@@ -37,6 +37,27 @@ return(
             <button type="button" className="buttons"  onClick={()=>setColor('blue')}> Change color </button>
             <a href={reactLink}>google</a>
         </div>
+
+
+        <div>
+
+         {
+          props.blogs.blogs.map((data)=> {
+            return (
+              <div>
+            <b> {data.title} </b> 
+            <b> {data.post} </b> 
+          
+            </div>
+            )
+          })
+}
+
+<b> {props.blogs.comment} </b>
+        </div>
+
+
+
         </div>
     
 )

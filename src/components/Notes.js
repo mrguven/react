@@ -1,4 +1,5 @@
 import { useState } from "react";
+import AppTest from "./AppTest";
 
 const Notes = () => {
 
@@ -46,6 +47,8 @@ const [blogs,setBlog]=useState([
   <button onClick={handleClick}>change color</button> */}
 
 
+
+<AppTest blogs={{blogs ,comment:'this is comment'}} />
 
 
             </div>
