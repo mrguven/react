@@ -1,48 +1,32 @@
 
-import Notes from './components/Notes';
+import { BrowserRouter ,Route, Routes } from 'react-router-dom';
 
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Navbar from './components/Navbar';
+import About from './pages/About';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
 
-   
-
-        <img src="logo512.png" className="App-logo" alt="logo" />
-
-        <a
-          className="App-link"
-          id= 'animated-text'
-          href="https://youtube.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        
-          JOIN MY JOURNEY
-
-          
-
-       
-        
-          
-        </a>
 
     
-        <h1>this is test</h1>
-       
-      </header>
-      <Notes />
+<BrowserRouter>
+<Navbar />
+<Routes>
 
- 
+<Route path='/' index element={<Home />}  />
+<Route path='/login'  element={<Login />} /> 
+<Route path='/about' element={<About />} />
 
-</div>
+</Routes>
 
 
+</BrowserRouter>
 
-  );
+  )
 }
 
 export default App;

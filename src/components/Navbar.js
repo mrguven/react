@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Navbar(){
 return(
@@ -14,7 +15,10 @@ return(
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Link</a>
+          <Link  to='/login' className="nav-link" > Login</Link>
+        </li>
+        <li className="nav-item">
+          <Link to='/about' className="nav-link" > About</Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
