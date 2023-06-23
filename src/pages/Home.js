@@ -1,5 +1,6 @@
 import LifeCycle from "../components/LifeCycle";
 import Notes from "../components/Notes";
+import { Link } from "react-router-dom";
 
 export default function Home (){
 
@@ -15,21 +16,21 @@ export default function Home (){
   
           <img src="logo512.png" className="App-logo" alt="logo" />
   
-          <a
-            className="App-link"
+         <Link  to= "https://youtube.com" className="App-link"
             id= 'animated-text'
-            href="https://youtube.com"
+            
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
+
+          
           
             JOIN MY JOURNEY
   
             
   
-           
+            </Link>
             
-          </a>
+         
   
       
           <h1>this is test</h1>
