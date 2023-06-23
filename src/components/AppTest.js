@@ -53,7 +53,8 @@ return(
           })
 }
 
-<b> {props.blogs.comment} </b>
+<b> {props.blogs.comment} </b> <br />
+<b>{props.comment2}</b>
         </div>
 
 

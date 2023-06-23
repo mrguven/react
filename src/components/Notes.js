@@ -48,7 +48,7 @@ const [blogs,setBlog]=useState([
 
 
 
-<AppTest blogs={{blogs ,comment:'this is comment'}} />
+<AppTest blogs={{blogs ,comment:'this is comment'}}   comment2='this is second comment' />
 
 
             </div>
